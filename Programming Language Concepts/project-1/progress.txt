@@ -1,0 +1,1 @@
+John and I have have working versions of parts two through six implemented and documented. We will probably spend some time cleaning up the code later on, but everything is functional at this point. We don't have any questions/concerns at the moment.

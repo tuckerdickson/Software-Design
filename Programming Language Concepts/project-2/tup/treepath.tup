@@ -1,0 +1,8 @@
+path (x,l,r) (b,p) | b = path l p
+path (x,l,r) (b,p) = path r p
+path (x,l,r) # = x
+path # u = #
+
+!
+
+path (1,(2,#,#),(3,(4,#,#),(5,#,#))) (0,(1,#)) = 4

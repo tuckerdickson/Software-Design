@@ -1,0 +1,36 @@
+module Functions where
+
+import System.Environment
+
+{-------------------- Part I --------------------}
+convertToList :: String -> [(Int,Int)]
+convertToList s = l
+  where l = read s :: [(Int,Int)]
+
+buildString :: [(Int,Int)] -> String
+buildString [] = ""
+buildString ((h1,h2):tail) = show h1 ++ " -- " ++ show h2 ++ "\n" ++ buildString tail
+
+
+{-------------------- Part II --------------------}
+applyComparator :: [(Int,Int)] -> [Int] -> [Int]
+applyComparator [] s = s
+applyComparator ((h1,h2):tail) s =
+  if s!!(h1-1) > s!!(h2-1)
+    then (applyComparator tail (swap s h1 h2))
+  else (applyComparator tail s)
+  
+--  where sNew = s!!(h1-1) > s!!(h2-1) ? (swap s h1 h2) : s
+--    if s!!(h1-1) > s!!(h2-1)
+--      then (swap s h1 h2)
+--    else
+--      s
+
+swap :: [Int] -> Int -> Int -> [Int]
+swap l ind1 ind2 = l1 ++ [l!!(i2)] ++ l2 ++ [l!!(i1)] ++ l3
+  where i1 = ind1 - 1
+        i2 = ind2 - 1
+        l1 = take i1 l
+        l2 = drop ind1 (take i2 l)
+        l3 = drop ind2 l
+

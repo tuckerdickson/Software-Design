@@ -1,0 +1,11 @@
+app (hd,tl) l2 = (hd,app tl l2)
+app # l2 = l2
+
+!
+
+rev (h,t) = (app (rev t) h)
+rev # = #
+
+!
+
+rev (1,(2,(3,#))) = (((#,3),2),1)
