@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"AmazonOrderProcessing"},{"p":"<Unnamed>","l":"AmazonWebServer"},{"p":"<Unnamed>","l":"Print"},{"p":"<Unnamed>","l":"Section"},{"p":"<Unnamed>","l":"ShippingCenter"},{"p":"<Unnamed>","l":"ShippingDock"},{"p":"<Unnamed>","l":"SynchronizedBuffer"},{"p":"<Unnamed>","l":"Truck"}]
