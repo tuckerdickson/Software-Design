@@ -1,0 +1,3 @@
+/Users/tuckerdickson/engr2730spring2021/ntdickson/homework/hw8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tuckerdickson/engr2730spring2021/ntdickson/homework/hw8/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tuckerdickson/engr2730spring2021/ntdickson/homework/hw8/cmake-build-debug/CMakeFiles/hw8.dir

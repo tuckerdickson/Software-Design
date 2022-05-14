@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tuckerdickson/engr2730spring2021/ntdickson/homework/hw8/MyList.h
+Node.h
+/Users/tuckerdickson/engr2730spring2021/ntdickson/homework/hw8/Node.h
+
+/Users/tuckerdickson/engr2730spring2021/ntdickson/homework/hw8/Node.h
+
+/Users/tuckerdickson/engr2730spring2021/ntdickson/homework/hw8/main.cpp
+iostream
+-
+Node.h
+/Users/tuckerdickson/engr2730spring2021/ntdickson/homework/hw8/Node.h
+MyList.h
+/Users/tuckerdickson/engr2730spring2021/ntdickson/homework/hw8/MyList.h
+
